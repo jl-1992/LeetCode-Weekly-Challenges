@@ -20,28 +20,28 @@ before and the round after.
 You need to return the sum of the points you could get in all the rounds.
 
 Example 1:</br>
-Input: ["5","2","C","D","+"]
+Input: ["5","2","C","D","+"]</br>
 Output: 30</br>
-Explanation: 
-Round 1: You could get 5 points. The sum is: 5.
-Round 2: You could get 2 points. The sum is: 7.
-Operation 1: The round 2's data was invalid. The sum is: 5.  
-Round 3: You could get 10 points (the round 2's data has been removed).
-The sum is: 15.
+Explanation:</br> 
+Round 1: You could get 5 points. The sum is: 5.</br>
+Round 2: You could get 2 points. The sum is: 7.</br>
+Operation 1: The round 2's data was invalid. The sum is: 5.  </br>
+Round 3: You could get 10 points (the round 2's data has been removed).</br>
+The sum is: 15.</br>
 Round 4: You could get 5 + 10 = 15 points. The sum is: 30.</br>
 Example 2:</br>
-Input: ["5","-2","4","C","D","9","+","+"]
-Output: 27
-Explanation: 
-Round 1: You could get 5 points. The sum is: 5.
-Round 2: You could get -2 points. The sum is: 3.
-Round 3: You could get 4 points. The sum is: 7.
-Operation 1: The round 3's data is invalid. The sum is: 3.  
-Round 4: You could get -4 points (the round 3's data has been removed).
-The sum is: -1.
-Round 5: You could get 9 points. The sum is: 8.
-Round 6: You could get -4 + 9 = 5 points. The sum is 13.
-Round 7: You could get 9 + 5 = 14 points. The sum is 27.
-Note:
-The size of the input list will be between 1 and 1000.
-Every integer represented in the list will be between -30000 and 30000.
+Input: ["5","-2","4","C","D","9","+","+"]</br>
+Output: 27</br>
+Explanation: </br>
+Round 1: You could get 5 points. The sum is: 5.</br>
+Round 2: You could get -2 points. The sum is: 3.</br>
+Round 3: You could get 4 points. The sum is: 7.</br>
+Operation 1: The round 3's data is invalid. The sum is: 3.  </br>
+Round 4: You could get -4 points (the round 3's data has been removed).</br>
+The sum is: -1.</br>
+Round 5: You could get 9 points. The sum is: 8.</br>
+Round 6: You could get -4 + 9 = 5 points. The sum is 13.</br>
+Round 7: You could get 9 + 5 = 14 points. The sum is 27.</br></br>
+Note:</br>
+The size of the input list will be between 1 and 1000.</br>
+Every integer represented in the list will be between -30000 and 30000.</br>
